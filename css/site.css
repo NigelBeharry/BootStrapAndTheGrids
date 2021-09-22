@@ -12,6 +12,17 @@ body>main {
   margin-bottom: 20px;
 }
 
+   main>.container {
+     padding: 60px 15px 0;
+     margin-bottom: 5rem;
+   }
+
+   .sticky-nav {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+   }
 .heroText {
   font-family: modesto-open-shadow, sans-serif;
   font-weight: 400;
@@ -42,3 +53,4 @@ body>main {
   font-style: normal;
   color: rgb(195, 255, 0);
 }
+
